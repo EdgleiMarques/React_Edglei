@@ -1,0 +1,30 @@
+.cabeçalho{
+    display: flex;
+/*    border: 1px solid black;*/
+    background-color: rgb(255, 165, 0);
+}
+.cabeçalho h1{
+    flex: 8;
+    margin-left: 20px;
+}
+.cabeçalho div{
+    flex: 4;
+    display: flex;
+    align-items: top;
+    justify-content: right;
+/*    width: 30px;*/
+    margin: 10px;
+}
+.cabeçalho div a{
+
+    height: 20px;
+    text-decoration: none;
+    width: 40px;
+    border: transparent;
+}
+.cabeçalho div a:hover{
+    background-color: rgb(253, 53, 53);
+    color: #fff;
+    border-radius: 5px;
+    border: transparent;
+}

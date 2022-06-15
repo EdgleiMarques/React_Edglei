@@ -1,0 +1,35 @@
+.body{
+    display: flex;
+}
+.nav{
+    flex: 1;
+    height: 500px;
+    text-align: left;
+    margin-top: 0px;
+}
+.nav ul{
+    padding-left: 5px;
+    margin-top: 5px;
+}
+.nav li{
+    list-style-type: none;
+    color: rgb(61, 129, 129);
+    text-decoration: underline;
+    font-style: italic;
+}
+.nav li a{
+    text-decoration: none;
+    color: rgb(61, 129, 129);
+}
+.news{
+    flex: 7;
+    height: 500px;
+    margin: 10px 10px 0px 10px;
+    padding: 10px;
+    text-align: justify;
+}
+.aside{
+    flex: 4;
+    height: 500px;
+    
+}
